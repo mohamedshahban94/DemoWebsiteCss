@@ -1,0 +1,178 @@
+/*navigation bar  */
+.navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    letter-spacing: 3px;
+    background-color: white;
+}
+
+.br {
+    padding-left: 15px;
+    float: left;
+}
+
+.home {
+    margin: 20px 15px 0px 10px;
+    float: right;
+}
+
+.home a {
+    padding-left: 12px;
+
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*baground imageee*/
+#bgimg {
+    background-image: url(architect.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: 1500px 800px;
+}
+
+/*br heading in image*/
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .im h1 {
+
+    font-size: 50px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 8px;
+    color: rgba(255, 255, 255, 0.966);
+    text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.801);
+}
+
+.section .im h1 span {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.692);
+    padding: 5px;
+}
+
+/* project section*/
+.container1 {
+    width: 100%;
+}
+
+.im1 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.im1 div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.im1 img {
+    width: 300px;
+    height: 220px;
+}
+
+/* bio dDATA*/
+.container2 {
+    width: 100%;
+}
+
+.bio {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+}
+
+.bio h3 {
+    font-size: 24px;
+}
+
+.bio h5 {
+    color: rgb(110, 107, 107);
+    font-size: 16px;
+}
+
+.bio p {
+    color: black;
+}
+
+.bio img {
+    width: 300px;
+    height: 220px;
+}
+
+.bio button {
+    text-align: center;
+    padding: 10px 120px;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.bio button:hover {
+    border: 1px solid black;
+    color: white;
+}
+
+/*contactss*/
+
+.contact input {
+    display: block;
+    width: 90%;
+    padding: 7px;
+    border: 2px solid grey;
+}
+
+.contact input:hover {
+    border: 2px solid black;
+}
+
+.contact button {
+    font-weight: bold;
+    padding: 7px 22px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.contact button:hover {
+    color: black;
+    background-color: white;
+}
+
+/*Final imagee*/
+.final-img {
+    margin: 20px;
+}
+
+/*footer powered by w3 school*/
+
+footer {
+    margin: 0%;
+    height: 100px;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    padding-top: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p a {
+    color: white;
+}
